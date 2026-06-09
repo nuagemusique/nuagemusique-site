@@ -1,21 +1,80 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuage Musique</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuage Musique</title>
+  <meta name="description" content="Nuage Musique, chansons poétiques, concerts et ateliers d'écriture de chansons à Paris." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-    <h1>NUAGE MUSIQUE</h1>
-
-    <nav>
-        <a href="biographie.html">Biographie</a>
-        <a href="ateliers.html">Atelier d'écriture</a>
-        <a href="booking.html">Booking</a>
-        <a href="concerts.html">Prochains concerts</a>
-        <a href="galerie.html">Galerie</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Accueil Nuage Musique">
+      <img src="images/logo-nuage-rose.png" alt="Logo Nuage" />
+    </a>
+    <nav class="main-nav" aria-label="Navigation principale">
+      <a href="biographie.html">Biographie</a>
+      <a href="ateliers.html">Atelier d'écriture</a>
+      <a href="booking.html">Booking</a>
+      <a href="concerts.html">Prochains concerts</a>
+      <a href="galerie.html">Galerie</a>
     </nav>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Nuage Musique</p>
+        <h1>Chansons poétiques<br>et ateliers d'écriture</h1>
+        <p class="intro">Des chansons comme des nuages, entre légèreté et profondeur. Une voix, une guitare, et des mots qui relient.</p>
+        <div class="actions">
+          <a class="button primary" href="biographie.html">Découvrir l'univers</a>
+          <a class="button secondary" href="ateliers.html">Voir les ateliers</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/photos/concert-1.jpeg" alt="Nuage en concert avec une guitare" />
+      </div>
+    </section>
+
+    <section class="home-cards" aria-label="Accès rapides">
+      <a class="card" href="biographie.html">
+        <span>01</span>
+        <h2>Biographie</h2>
+        <p>Découvrir le parcours artistique de Nuage.</p>
+      </a>
+      <a class="card" href="ateliers.html">
+        <span>02</span>
+        <h2>Atelier d'écriture</h2>
+        <p>Écrire, chanter, partager, en groupe ou en stage.</p>
+      </a>
+      <a class="card" href="booking.html">
+        <span>03</span>
+        <h2>Booking</h2>
+        <p>Programmer un concert ou une intervention musicale.</p>
+      </a>
+      <a class="card" href="concerts.html">
+        <span>04</span>
+        <h2>Prochains concerts</h2>
+        <p>Retrouver les dates à venir.</p>
+      </a>
+      <a class="card" href="galerie.html">
+        <span>05</span>
+        <h2>Galerie</h2>
+        <p>Photos, scènes, portraits et moments d'atelier.</p>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Nuage Musique</p>
+    <div class="footer-links">
+      <a href="mailto:contact@nuagemusique.fr">contact@nuagemusique.fr</a>
+      <a href="https://www.instagram.com/nuage.musique/">Instagram</a>
+    </div>
+  </footer>
 </body>
 </html>
