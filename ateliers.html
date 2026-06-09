@@ -1,17 +1,25 @@
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ateliers - Nuage Musique</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
   <header class="site-header">
-    <a class="brand" href="index.html"><img src="images/logo-nuage-rose.png" alt="Logo Nuage" /></a>
+    <a class="brand" href="index.html">
+      <img src="images/logo-nuage-rose.png" alt="Logo Nuage" />
+    </a>
+
     <nav class="main-nav">
       <a href="biographie.html">Biographie</a>
       <a href="ateliers.html">Atelier d'écriture</a>
@@ -20,56 +28,130 @@
       <a href="galerie.html">Galerie</a>
     </nav>
   </header>
+
   <main>
+
     <section class="page-hero">
       <img class="logo-small" src="images/logo-nuage-rose.png" alt="Logo Nuage" />
+
       <h1>Atelier d'écriture</h1>
-      <p>Des ateliers d'écriture de chansons en français, ouverts aux débutant.e.s comme aux confirmé.e.s.</p>
+
+      <p>
+        Des ateliers d'écriture de chansons en français,
+        ouverts aux débutant.e.s comme aux confirmé.e.s.
+      </p>
     </section>
+
     <section class="page-section">
       <h2>Écrire une chanson, ensemble.</h2>
-      <p>Les ateliers mêlent jeux d'écriture, exploration des rimes, rythmes, images, structures de chansons et temps de partage. L'objectif est de libérer la voix, les mots et l'imaginaire.</p>
+
+      <p>
+        Les ateliers mêlent jeux d'écriture, exploration des rimes,
+        rythmes, images, structures de chansons et temps de partage.
+        L'objectif est de libérer la voix, les mots et l'imaginaire.
+      </p>
+
       <ul>
         <li>Ateliers hebdomadaires de 2 heures</li>
         <li>Stages ponctuels</li>
         <li>Groupes de 4 à 12 personnes</li>
         <li>À partir de 16 ans</li>
       </ul>
-      <a class="button primary" href="mailto:contact@nuagemusique.fr">Demander une information</a>
+
+      <a class="button primary" href="mailto:contact@nuagemusique.fr">
+        Demander une information
+      </a>
     </section>
-    <form class="booking-form" action="https://formspree.io/f/xgobyndw" method="POST">
-  <label>
-    Nom
-    <input type="text" name="nom" required>
-  </label>
-  <label>
-    Email
-    <input type="email" name="email" required>
-  </label>
 
-  <label>
-    Date souhaitée
-    <select name="date" required>
-      <option value="">Choisir une date</option>
-      <option value="Samedi 14 septembre - 14h">Samedi 14 septembre - 14h</option>
-      <option value="Samedi 28 septembre - 14h">Samedi 28 septembre - 14h</option>
-      <option value="Dimanche 6 octobre - 11h">Dimanche 6 octobre - 11h</option>
-    </select>
-  </label>
+    <section class="page-section">
 
-  <label>
-    Nombre de personnes
-    <input type="number" name="nombre_de_personnes" min="1" max="10" required>
-  </label>
+      <h2>Réserver un atelier</h2>
 
-  <label>
-    Message optionnel
-    <textarea name="message" rows="5"></textarea>
-  </label>
+      <p>
+        Choisis une date, indique le nombre de personnes,
+        et je te répondrai rapidement pour confirmer la réservation.
+      </p>
 
-  <button class="button primary" type="submit">Envoyer ma demande</button>
-</form>
+      <form
+        class="booking-form"
+        action="https://formspree.io/f/xgobyndw"
+        method="POST"
+      >
+
+        <label>
+          Nom
+          <input type="text" name="nom" required>
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" required>
+        </label>
+
+        <label>
+          Date souhaitée
+          <select name="date" required>
+            <option value="">Choisir une date</option>
+
+            <option value="Samedi 14 septembre - 14h">
+              Samedi 14 septembre - 14h
+            </option>
+
+            <option value="Samedi 28 septembre - 14h">
+              Samedi 28 septembre - 14h
+            </option>
+
+            <option value="Dimanche 6 octobre - 11h">
+              Dimanche 6 octobre - 11h
+            </option>
+
+          </select>
+        </label>
+
+        <label>
+          Nombre de personnes
+          <input
+            type="number"
+            name="nombre_de_personnes"
+            min="1"
+            max="10"
+            required
+          >
+        </label>
+
+        <label>
+          Message optionnel
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Une question, une précision..."
+          ></textarea>
+        </label>
+
+        <button class="button primary" type="submit">
+          Envoyer ma demande
+        </button>
+
+      </form>
+
+    </section>
+
   </main>
-  <footer class="site-footer"><p>© 2026 Nuage Musique</p><div class="footer-links"><a href="mailto:contact@nuagemusique.fr">contact@nuagemusique.fr</a><a href="https://www.instagram.com/nuage.musique/">Instagram</a></div></footer>
+
+  <footer class="site-footer">
+    <p>© 2026 Nuage Musique</p>
+
+    <div class="footer-links">
+      <a href="mailto:contact@nuagemusique.fr">
+        contact@nuagemusique.fr
+      </a>
+
+      <a href="https://www.instagram.com/nuage.musique/" target="_blank">
+        Instagram
+      </a>
+    </div>
+  </footer>
+
 </body>
 </html>
+```
