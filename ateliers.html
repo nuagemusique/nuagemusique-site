@@ -88,25 +88,26 @@
           <input type="email" name="email" required>
         </label>
 
-        <label>
-          Date souhaitée
-          <select name="date" required>
-            <option value="">Choisir une date</option>
+       <label>Dates souhaitées</label>
 
-            <option value="Samedi 14 septembre - 14h">
-              Samedi 14 septembre - 14h
-            </option>
+<div class="date-options">
 
-            <option value="Samedi 28 septembre - 14h">
-              Samedi 28 septembre - 14h
-            </option>
+  <label class="date-option">
+    <input type="checkbox" name="dates[]" value="Samedi 14 septembre - 14h">
+    <span>Samedi 14 septembre - 14h</span>
+  </label>
 
-            <option value="Dimanche 6 octobre - 11h">
-              Dimanche 6 octobre - 11h
-            </option>
+  <label class="date-option">
+    <input type="checkbox" name="dates[]" value="Samedi 28 septembre - 14h">
+    <span>Samedi 28 septembre - 14h</span>
+  </label>
 
-          </select>
-        </label>
+  <label class="date-option">
+    <input type="checkbox" name="dates[]" value="Dimanche 6 octobre - 11h">
+    <span>Dimanche 6 octobre - 11h</span>
+  </label>
+
+</div>
 
         <label>
           Nombre de personnes
