@@ -37,6 +37,38 @@
       </ul>
       <a class="button primary" href="mailto:contact@nuagemusique.fr">Demander une information</a>
     </section>
+    <form class="booking-form" action="https://formspree.io/f/xgobyndw" method="POST">
+  <label>
+    Nom
+    <input type="text" name="nom" required>
+  </label>
+  <label>
+    Email
+    <input type="email" name="email" required>
+  </label>
+
+  <label>
+    Date souhaitée
+    <select name="date" required>
+      <option value="">Choisir une date</option>
+      <option value="Samedi 14 septembre - 14h">Samedi 14 septembre - 14h</option>
+      <option value="Samedi 28 septembre - 14h">Samedi 28 septembre - 14h</option>
+      <option value="Dimanche 6 octobre - 11h">Dimanche 6 octobre - 11h</option>
+    </select>
+  </label>
+
+  <label>
+    Nombre de personnes
+    <input type="number" name="nombre_de_personnes" min="1" max="10" required>
+  </label>
+
+  <label>
+    Message optionnel
+    <textarea name="message" rows="5"></textarea>
+  </label>
+
+  <button class="button primary" type="submit">Envoyer ma demande</button>
+</form>
   </main>
   <footer class="site-footer"><p>© 2026 Nuage Musique</p><div class="footer-links"><a href="mailto:contact@nuagemusique.fr">contact@nuagemusique.fr</a><a href="https://www.instagram.com/nuage.musique/">Instagram</a></div></footer>
 </body>
