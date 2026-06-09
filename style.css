@@ -381,3 +381,28 @@ h1 {
   border-color: var(--pink);
   box-shadow: 0 0 0 4px rgba(240, 124, 197, 0.16);
 }
+.date-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.date-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 18px;
+  background: rgba(255,255,255,0.75);
+  border: 1px solid rgba(240,124,197,0.25);
+  cursor: pointer;
+}
+
+.date-option:hover {
+  border-color: var(--pink);
+}
+
+.date-option input {
+  width: 18px;
+  height: 18px;
+}
