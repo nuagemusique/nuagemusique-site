@@ -346,3 +346,38 @@ h1 {
   .site-footer { flex-direction: column; text-align: center; }
   .footer-links { flex-direction: column; gap: 10px; }
 }
+
+.booking-form {
+  display: grid;
+  gap: 18px;
+  max-width: 620px;
+  margin-top: 28px;
+}
+
+.booking-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  width: 100%;
+  border: 1.5px solid rgba(240, 124, 197, 0.35);
+  border-radius: 18px;
+  padding: 14px 16px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.booking-form input:focus,
+.booking-form select:focus,
+.booking-form textarea:focus {
+  outline: none;
+  border-color: var(--pink);
+  box-shadow: 0 0 0 4px rgba(240, 124, 197, 0.16);
+}
