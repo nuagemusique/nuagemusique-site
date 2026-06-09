@@ -406,3 +406,14 @@ h1 {
   width: 18px;
   height: 18px;
 }
+.date-option input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  margin: 0;
+}
+
+.date-option span {
+  display: block;
+  line-height: 1.4;
+}
