@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Merci - Nuage Musique</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+
+    <a class="brand" href="index.html">
+      <img
+        src="images/logo-nuage-rose.png"
+        alt="Logo Nuage"
+      />
+    </a>
+
+    <nav class="main-nav">
+      <a href="biographie.html">Biographie</a>
+      <a href="ateliers.html">Atelier d'écriture</a>
+      <a href="booking.html">Booking</a>
+      <a href="concerts.html">Prochains concerts</a>
+      <a href="galerie.html">Galerie</a>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <section class="thank-you">
+
+      <img
+        class="thank-you-logo"
+        src="images/logo-nuage-rose.png"
+        alt="Nuage"
+      />
+
+      <p class="eyebrow">Demande envoyée</p>
+
+      <h1>Merci !</h1>
+
+      <p class="thank-you-text">
+        Ta demande d'inscription à l'atelier a bien été envoyée.
+        Je reviens vers toi rapidement par e-mail pour confirmer ta place.
+      </p>
+
+      <p class="thank-you-signature">
+        À très vite dans les nuages ♡
+      </p>
+
+      <a class="button primary" href="index.html">
+        Retour à l'accueil
+      </a>
+
+    </section>
+
+  </main>
+
+
+  <footer class="site-footer">
+
+    <p>© 2026 Nuage Musique</p>
+
+    <div class="footer-links">
+
+      <a href="mailto:contact@nuagemusique.fr">
+        contact@nuagemusique.fr
+      </a>
+
+      <a
+        href="https://www.instagram.com/nuage.musique/"
+        target="_blank"
+      >
+        Instagram
+      </a>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
