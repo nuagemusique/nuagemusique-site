@@ -417,3 +417,23 @@ h1 {
   display: block;
   line-height: 1.4;
 }
+/* Alignement des cases à cocher avec les dates */
+
+.booking-form .date-option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.booking-form .date-option input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  margin: 0;
+}
+
+.booking-form .date-option span {
+  display: inline;
+  margin: 0;
+}
